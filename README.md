@@ -116,7 +116,7 @@ The `ad-hoc-network.cc` script supports dynamic runtime configuration via `ns3::
 | `--protocol`       | `string`   | `AODV`  | Active routing protocol (`AODV`, `OLSR`, `DSDV`, `DSR`, `HWMP`, `HYBRID`, `ZRP`, `GRP`)    |
 | `--hardware`       | `string`   | `RPI`   | Radio profile (`RPI` \= 802.11g 54Mbps / 200m range, `ESP32` \= 802.11g 6Mbps / 60m range) |
 | `--enableDtn`      | `bool`     | `false` | Enable/disable Spray &amp; Wait Delay-Tolerant Networking persistent buffering             |
-| `--enableSecurity` | `bool`     | `false` | Enable/disable L3 security watchdog monitoring for blackhole/grayhole nodes                |
+| `--enableSecurity` | `bool`     | `false` | Enable/disable L3 security watchdog monitoring for blackhole nodes                         |
 | `--enableAdaptive` | `bool`     | `false` | Enable/disable dynamic adaptive QoS queue prioritization                                   |
 | `--simTime`        | `double`   | `150.0` | Total simulation execution time in seconds                                                 |
 | `--nVictims`       | `uint32_t` | `10`    | Number of moving victim nodes                                                              |
